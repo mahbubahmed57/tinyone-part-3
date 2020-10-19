@@ -1,0 +1,131 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.menu ul li a{
+	padding: 0 0px !important; 
+	text-align: right;
+}	
+/*header end*/
+/*slider start*/
+.slider {
+    padding-bottom: 50px;
+}
+.ci {
+    bottom: -50px;
+} 
+.s_content {
+    margin-top: 20px;
+}
+
+.s_content h1 {
+    font-size: 25px;
+}
+
+.s_content h2 {
+    font-size: 15px;
+    margin: 15px 0;
+}
+.s_icon li i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.s_img img{
+	display:none;
+}
+/*slider end*/	
+/*features start*/
+.features{
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.c_h1{
+    font-size: 28px;
+	margin-bottom: 10px;
+}
+.c_p {
+    font-size: 18px;
+    word-spacing: 0;
+}
+.m_t_60 {
+    margin-top: 30px;
+}
+.f_icon{
+	font-size: 40px;
+}
+.f_text{
+	text-align: center;
+}
+.f_text h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+/*features end*/ 
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu ul li a{
+	padding: 0 0px !important; 
+	text-align: right;
+}	
+/*header end*/
+/*slider start*/
+.slider {
+    padding-bottom: 50px;
+}
+.ci {
+    bottom: -50px;
+} 
+.s_content {
+    margin-top: 40px;
+}
+.s_img img{
+	display:none;
+}
+/*slider end*/
+/*features start*/
+.features{
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+.m_t_60 {
+    margin-top: 40px;
+}
+.f_text{
+	text-align: center;
+}
+/*features end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a{
+	padding: 0 0px !important; 
+	text-align: right;
+}	
+/*header end*/
+/*slider start*/
+.s_content{
+	margin-top: 40px;
+}
+/*slider end*/
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	 
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+/*slider start*/
+.s_img img {
+    margin-left: 85px;
+}
+/*slider end*/
+}
